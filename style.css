@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -11,7 +12,6 @@ body {
 /* começo da header*/
 
 header {
-  flex-shrink: 0;
   display: flex;
   align-items: center;
   margin: 25px;
@@ -77,6 +77,9 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: auto;
+
+
 }
 
 #airpod-image {
@@ -167,5 +170,140 @@ header {
   text-transform: uppercase;
   margin-bottom: 152px;
 }
-  
-/*fim do content-01*/
+/*fim do content-01/hero*/
+
+/* começo do content-01 */
+
+#content-01 {
+  background-color: #F4F7FA;
+  height: 700px;
+  display: flex;
+}
+
+#cara-correndo {
+  display: block;
+  width: 600px;
+  height: 100%;
+}
+
+#content-right {
+  width: 622px;
+  height: 444px;
+}
+
+#Listen {
+  width: 429px;
+  color: #161C2D;
+  font-family: Gilroy;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px; 
+  letter-spacing: -1.8px;
+  margin-top: 164px;
+  margin-left: 125px;
+  margin-right: 100%;
+  margin-bottom: 20px;
+}
+
+#we-share {
+  width: 404px;
+  color: #161C2D;
+  font-family: Gilroy;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+  letter-spacing: -0.2px;
+  margin-left: 125px;
+  margin-bottom: 110px;
+  margin-right: 100%;
+}
+
+#arguments-listen {
+  display: flex;
+  padding-left: 125px;
+}
+
+#earbuds {
+  width: 296px;
+  height: 134px;
+  display: flex;
+
+}
+
+#img-buds {
+  width: 42px;
+  height: 40px;
+}
+
+#img-Oval-purple {
+  width: 44px;
+  height: 40px;
+  opacity: 0.3;
+  display: flex;
+  position: absolute;
+}
+
+
+#txt-earbuds {
+  width: 227px;
+  height: 134px;
+  padding-left: 14px;
+}
+
+#Buds {
+  font-family: Gilroy;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 152.381% */
+  letter-spacing: -0.5px;
+  margin-bottom: 15px;
+}
+
+#bass {
+  width: 293px;
+  height: 134px;
+  display: flex;
+  padding-left: 33px;
+}
+
+#img-sound-wave {
+  width: 44px;
+  height: 40px;
+}
+
+#img-Oval-red{
+  width: 35px;
+  height: 35px;
+  opacity: 0.3;
+  position: absolute;
+}
+
+#txt-bass {
+  width: 227px;
+  height: 134px;
+  padding-left: 18px;
+}
+
+#power-buds {
+  color: #161C2D;
+  font-family: Gilroy;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; 
+  letter-spacing: -0.5px;
+}
+
+#unique-blocks {
+  color: #161C2D;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  ine-height: 29px; 
+  letter-spacing: -0.2px;
+}
+/* fim do content-01 */
