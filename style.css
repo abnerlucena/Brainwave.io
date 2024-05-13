@@ -327,7 +327,7 @@ nav ul {
 
 #Buds {
   font-family: Gilroy;
-  font-size: 21px;
+  font-size: 1.3125rem;
   font-style: normal;
   font-weight: 700;
   line-height: 32px; /* 152.381% */
@@ -371,7 +371,7 @@ nav ul {
 #power-buds {
   color: #161C2D;
   font-family: Gilroy;
-  font-size: 21px;
+  font-size: 1.3125rem;
   font-style: normal;
   font-weight: 700;
   line-height: 32px; 
@@ -381,10 +381,95 @@ nav ul {
 #unique-blocks {
   color: #161C2D;
   font-family: Gilroy;
-  font-size: 17px;
+  font-size: 1.06rem;
   font-style: normal;
   font-weight: 400;
-  ine-height: 29px; 
+  line-height: 29px; 
   letter-spacing: -0.2px;
 }
 /* fim do content-01 */
+
+/* começo do content-02 */
+#content-02 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 771px;
+  background-color: #473BF0;
+}
+
+#content-02-allleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#content-02-left {
+  padding-left: 21.25%;
+}
+
+#happy-man {
+  display: absolute;
+  height: 771px;
+  right: 0;
+}
+
+#content-02-head {
+  font-family: 'gilroy';
+  color: #FFF;
+  font-style: normal;
+}
+
+#content-02-head h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 58px; 
+  letter-spacing: -1.8px;
+  padding-bottom: 10px;
+}
+
+#content-02-head h3 {
+  font-size: 1.1875rem;
+  font-weight: 400;
+  line-height: 32px; 
+  letter-spacing: -0.2px;
+  opacity: 0.65;
+}
+
+#content-02-coment {
+  display: flex;
+  align-items: center;
+  padding-top: 55px;
+}
+
+#content-02-coment img {
+  width: 110px;
+  height: 110px;
+  padding-right: 22px
+}
+
+#content-02-coment h2{
+  color: #FFF;
+  font-family: 'Rubik';
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+  letter-spacing: -0.117px;
+  padding-bottom: 17px;
+}
+
+#content-02-left p {
+  color: #FFF;
+  font-family: 'Gilroy';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  opacity: 0.65;
+  padding-left: 110px;
+}
+
+/* fim do content-02 */
